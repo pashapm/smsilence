@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">SMSilence</string>
+    <string name="app_name">SMSilence</string>
+	<string name="stop_btn">Stop</string>
+	<string name="description">This application lets your friends to send a \"silent\" SMS to you. 
+	They would just start a message with \"#s\" to make your phone to receive _this_ SMS in a silent mode or with \"#v\" to use vibration only. </string>
+	<string name="example1"> Examples: </string>
+	
+	<string name="example2"> \"#v Dude, are you sleeping? Call me\" \n\"#s Good night, dear :-*\" </string> 
+<string name="instruction1"> To stop handling tags in SMS press \"Halt handling\" button  </string>
+<string name="instruction2"> Now tags handling is off. To resume press \"Resume handling\" button  </string>
+<string name="about"> Evgeny Balandin, 2009 \n jecklandin@gmail.com \n http://osll.spb.ru  </string>
+<string name="promo"> Your phone receive SMS-es with #v in vibration mode  </string>
+
+</resources>
+  

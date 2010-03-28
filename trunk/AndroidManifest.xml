@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="ru.jecklandin.silencesign"
+      android:versionCode="1"
+      android:versionName="1.0.0" android:sharedUserLabel="@string/app_name">
+      <uses-sdk android:minSdkVersion="2"/>
+
+	<uses-permission android:name="android.permission.RECEIVE_SMS"></uses-permission>
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <application android:icon="@drawable/myicon" android:label="@string/app_name">
+        <activity android:name=".SMSilence"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".Receiver" android:enabled="true">
+	      <intent-filter>
+	        <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+	      </intent-filter>
+    	</receiver>
+
+    </application>
+
+</manifest>
