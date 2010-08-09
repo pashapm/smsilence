@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout android:id="@+id/RelativeLayout01"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="#29a6d1">
+	<ImageView android:id="@+id/ImageView01"
+		android:layout_gravity="center_horizontal" android:layout_width="wrap_content"
+		android:layout_alignParentTop="true" android:layout_centerHorizontal="true"
+		android:layout_height="wrap_content" android:scaleType="fitCenter"></ImageView>
+	
+<LinearLayout android:id="@+id/LinearLayout01" android:layout_below="@id/Button01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:orientation="horizontal"><ToggleButton android:id="@+id/ToggleButton01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="#00000000" android:background="#00000000" android:layout_margin="5dip" android:layout_gravity="center" android:drawableTop="@drawable/toggle" android:checked="true"></ToggleButton><Button android:id="@+id/Button01" android:layout_width="wrap_content" android:text="@string/promo" android:textSize="17sp" android:layout_weight="1" android:layout_height="wrap_content" android:background="@drawable/view" android:textStyle="bold" android:textColor="#1b570b" android:layout_margin="2dip" android:layout_gravity="center"></Button>
+
+
+</LinearLayout>
+</RelativeLayout> 
+     
