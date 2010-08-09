@@ -28,7 +28,7 @@ public class SMSilence extends Activity {
 
 	class MenuToaster implements OnMenuItemClickListener {
 		Context m_ctx;
-
+ 
 		public MenuToaster(Context m_ctx) {
 			this.m_ctx = m_ctx;
 		}
