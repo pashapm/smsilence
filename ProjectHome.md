@@ -1,0 +1,1 @@
+tool for android: silensing the phone if special tag is received
